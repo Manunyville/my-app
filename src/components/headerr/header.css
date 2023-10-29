@@ -1,0 +1,15 @@
+#ContainerHeader{
+    display: flex;
+    background-color: rgba(63, 23, 23, 0.349);
+    justify-content: center;
+}
+.rowHeader{
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+.datosHeader{
+    display: flex;
+    flex-direction: row;
+}
