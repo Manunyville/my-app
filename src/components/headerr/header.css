@@ -1,4 +1,4 @@
-#ContainerHeader{
+/* #ContainerHeader{
     display: flex;
     background-color: rgba(63, 23, 23, 0.349);
     justify-content: center;
@@ -11,5 +11,24 @@
 }
 .datosHeader{
     display: flex;
-    flex-direction: row;
+    gap: 25px;
+    
+} */
+
+.rowHeader {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(63, 23, 23, 0.349);
+    flex-direction: column;
+    text-align: center;
+}
+.datosHeader {
+    display: flex;
+    gap: 25px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.datosHeader i {
+    display: flex;
+    align-items: center;
 }

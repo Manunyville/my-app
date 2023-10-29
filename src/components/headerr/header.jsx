@@ -5,8 +5,8 @@ import "./header.css"
 const header = () => {
     return (
         <>
-            <Container id="ContainerHeader">
-                <Col className="rowHeader">
+            <Container className="rowHeader">
+                
                     <div>
                         <h3>25% off efectivo/transferencia</h3>
                     </div>
@@ -16,7 +16,7 @@ const header = () => {
                         <i class="bi bi-envelope-fill">zonamates01@gmail.com</i>
                         <i class="bi bi-geo-alt-fill">Carlos casares 971 CASTELAR</i>
                     </div>
-                </Col>
+                
 
             </Container>
         </>
