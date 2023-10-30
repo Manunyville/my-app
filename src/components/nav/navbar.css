@@ -1,0 +1,39 @@
+#Navflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logozonamates{
+    width: 100px;
+    height: 100px;
+}
+#hamburguer{
+    padding: 2px;
+    background-color: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: .5rem;
+    
+}
+.Navbar.abierto {
+    
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    top: 3.5rem;
+    transition: left .3s ease-in-out;
+  }
+  
+  /* Ocultar el menú inicialmente */
+  .Navbar {
+    display: none;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+  }
