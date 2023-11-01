@@ -24,10 +24,10 @@ const NavegacionBar = () => {
         </div>
         
         <div className={`Navbar ${menuAbierto ? 'abierto' : ''}`}>
-          <a href="">Inicio</a>
-          <a href="">Productos</a>
-          <a href="">Seguimiento</a>
-          <a href="">Redes</a>
+          <a href="Incio" className="pathname">Inicio</a>
+          <a href="Productos" className="pathname">Productos</a>
+          <a href="Seguimiento" className="pathname">Seguimiento</a>
+          <a href="Redes" className="pathname">Redes</a>
         </div>
         
       </Container>

@@ -29,10 +29,11 @@
     display: none;
   }
 
-  a{
+  .pathname{
     text-decoration: none;
     color: black;
     font-weight: bolder;
+    cursor: pointer;
   }
 
 
@@ -54,7 +55,8 @@
   }
 }
 @media (min-width: 1300px) {
-  a{
+  .pathname{
     font-size: 20px;
+    cursor:pointer;
   }
 }
