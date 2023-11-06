@@ -45,11 +45,22 @@ const Footer = () => {
                     <img src={retiro} alt="" className="imagenes" />
                     </div>
                 </div>
-                <div className="redes">
+                <div className="redcon">
+                    <span>NUESTRAS REDES SOCIALES</span>
+                    <div className="icons">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                    </div>
 
                 </div>
-                <div className="contacto">
-                    
+                <div className="redcon">
+                    <span>COMO CONTACTAR</span>
+                    <div className="icons">
+
+                    <i class="bi bi-envelope-fill"></i>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <i class="bi bi-telephone-fill"></i>
+                    </div>
                 </div>
             </div>
         </>

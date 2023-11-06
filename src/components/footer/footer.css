@@ -17,3 +17,13 @@
     display: flex;
     gap: 2px;
 }
+.redcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
