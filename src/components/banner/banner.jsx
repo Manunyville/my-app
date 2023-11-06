@@ -8,15 +8,15 @@ const Banner = () => {
             <div className="containerbanner">
                 <div className="divbanner">
                     <i class="bi bi-truck"></i>
-                    <h3>Envios a cada rincon del mundo.</h3>
+                    <span>ENVIOS A TODO EL MUNDO.</span>            
                 </div>
                 <div className="divbanner">
                     <i class="bi bi-credit-card-fill"></i>
-                    <h3>3 Cuotas sin interes con todas las tarjetas.</h3>
+                    <span>3 CUOTAS SIN INTERES.</span>
                 </div>
                 <div className="divbanner">
                     <i class="bi bi-cash"></i>
-                    <h3>25% off en transferencia bancaria.</h3>
+                    <span>25% OFF EN TRANSFERENCIA BANCARIA.</span>
                 </div>
             </div>
         </>

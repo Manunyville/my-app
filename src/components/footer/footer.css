@@ -1,0 +1,19 @@
+.divfooter{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    gap: 10px;
+}
+.imagenes{
+    width: 45px;
+    height: 20px;
+}
+.pagosyenvios{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+#divimg{
+    display: flex;
+    gap: 2px;
+}
