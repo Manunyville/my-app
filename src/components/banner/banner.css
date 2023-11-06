@@ -16,3 +16,10 @@
     padding: 0px;
     font-weight: bolder;
 }
+ @media (min-width:720px) {
+    
+    .divbanner{
+        font-size: 18px;
+       
+    }
+ }
